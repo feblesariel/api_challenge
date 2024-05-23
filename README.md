@@ -13,10 +13,10 @@
   npm start    
 ```
 
-Create a .env file at the root of the project and add the environment variables.
+*Create a .env file at the root of the project and add the environment variables.
 
-NAME=test
-PASS=test
+NAME=test<br>
+PASS=test<br>
 JWT_SECRET=test
 
 ## Endpoints
@@ -42,24 +42,6 @@ JWT_SECRET=test
 ### Get Movies
 
 - **URL:** `GET /api/movies`
-- **Description:** This endpoint is used to obtain the JWT access token.
-- **Input Example:**
-```json
-{
-  "username": "testuser",
-  "password": "testpassword"
-}
-```
-- **Output Example:**
-```json
-{
-  "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyIiwiaWF0IjoxNjI2NDc1OTM3LCJleHAiOjE2MjY0NzU5NzN9.9dFdTWycMCw-M7jAIXmGYg9NBKMQY0vFqfvCN2WPL5E"
-}
-```
-
-### Obtener Películas
-
-- **URL:** `GET /api/movies`
 - **Descripción:** This endpoint is used to get a list of movies.
 - **Descripción:** Optional Query Parameters: Filters and sorting can be applied to the list of movies.
 - **Input Example:**
@@ -83,6 +65,10 @@ JWT_SECRET=test
     ]
 }
 ```
+
+
+
+
 
 
 
