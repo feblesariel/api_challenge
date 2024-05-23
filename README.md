@@ -39,11 +39,11 @@ JWT_SECRET=test
 }
 ```
 
-### Get Movies
+### Get Movies (requires token)
 
 - **URL:** `GET /api/movies`
 - **Descripción:** This endpoint is used to get a list of movies.
-- **Descripción:** Optional Query Parameters: Filters and sorting can be applied to the list of movies.
+- **Optional Query Parameters:** Optional Query Parameters: Filters and sorting can be applied to the list of movies.
 - **Input Example:**
 ```json
 {
@@ -66,26 +66,31 @@ JWT_SECRET=test
 }
 ```
 
-
-
-
-
-
-
-
-
-### Obtener Episodio de un Programa de Televisión
+### Get TV Show Episode (requires token)
 
 - **URL:** `GET /api/episode`
-- **Descripción:** Este endpoint se utiliza para obtener la información de un episodio específico de un programa de televisión, incluido el director.
-- **Parámetros de consulta opcionales:** Se pueden aplicar filtros y ordenación al episodio solicitado.
-- **Respuesta exitosa (200 OK):** Retorna la información del episodio solicitado.
-- **Respuesta de error:** Se envía una respuesta de error detallada.
-
-### Obtener Episodio de un Programa de Televisión
-
-- **URL:** `POST /api/addmovie`
-- **Descripción:** Este endpoint se utiliza para agregar una pelicula.
-- **Parámetros de consulta opcionales:** Se pueden aplicar filtros y ordenación al episodio solicitado.
-- **Respuesta exitosa (200 OK):** Retorna la información del episodio solicitado.
-- **Respuesta de error:** Se envía una respuesta de error detallada.
+- **Descripción:** This endpoint is used to obtain information about a specific episode of a TV show, including the director.
+- **Optional Query Parameters:** Filters and sorting can be applied to the requested episode.
+- **Input Example:**
+```json
+{
+  "tv_show_name": "Breaking Bad",
+  "episode_number": 1,
+  "season_number": 2
+}
+```
+- **Output Example:**
+```json
+{
+    "count": 1,
+    "data": [
+        {
+            "tv_show_name": "Breaking Bad",
+            "director_name": "Vince Gilligan",
+            "season_number": 2,
+            "episode_number": 1,
+            "title": "Seven Thirty-Seven"
+        }
+    ]
+}
+```
