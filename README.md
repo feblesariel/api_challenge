@@ -36,7 +36,7 @@ npm start
 ![image](src/img/getToken.png)
 
 
-### Get Movies (requires token)
+### Get Movies (token required)
 
 - **URL:** `GET /api/movies`
 - **Description:** This endpoint is used to get a list of movies.
@@ -47,7 +47,7 @@ npm start
 ![image](src/img/getMovies.png)
 
 
-### Get TV Show Episode (requires token)
+### Get TV Show Episode (token required)
 
 - **URL:** `GET /api/episode`
 - **Description:** This endpoint is used to obtain information about a specific episode of a TV show, including the director.
@@ -58,7 +58,7 @@ npm start
 ![image](src/img/getEpisode.png)
 
 
-### Add Movie (requires token)
+### Add Movie (token required)
 
 - **URL:** `POST /api/addmovie`
 - **Description:** This endpoint is used to add a movie.
