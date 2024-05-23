@@ -1,6 +1,6 @@
-## Endpoints
+## Development Challenge for Node.js
 
-This API is developed for the Nubceo challenge. The following technologies were used:
+This API is developed for the Nubceo. The following technologies were used:
 
 ```json
 {
