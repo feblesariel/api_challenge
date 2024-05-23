@@ -2,7 +2,6 @@
 
 This API is developed for Nubceo. MySQL, Sequelize ORM and JasonWebToken were used for the development.
 
-<br>
 
 ## Install and run
 
