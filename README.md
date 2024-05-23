@@ -3,7 +3,7 @@
 This API is developed for Nubceo. MySQL, Sequelize ORM and JasonWebToken were used for the development.
 
 
-## Install and run
+## Install
 
 ```
   git clone https://github.com/feblesariel/nubceo_challenge.git
