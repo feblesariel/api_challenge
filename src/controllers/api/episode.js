@@ -12,6 +12,7 @@ const Director = db.Director;
 const apiEpisodeController = {
 
     getEpisode: function (req, res) {
+
         // Extract query parameters
         const { tv_show_name, episode_number, season_number, sortField, sortOrder } = req.query;
 
@@ -27,7 +28,6 @@ const apiEpisodeController = {
         if (season_number) {
             whereClause['$Season.season_number$'] = { [Op.like]: `%${season_number}%` };
         }
-
 
         // Build the order clause for sorting
         let orderClause = [];
