@@ -22,9 +22,9 @@ This API is developed for the Nubceo. The following technologies were used:
 
 *Create a .env file at the root of the project and add the environment variables.
 
-`NAME=test<br>
+NAME=test<br>
 PASS=test<br>
-JWT_SECRET=test`
+JWT_SECRET=test
 
 ```
   npm install
