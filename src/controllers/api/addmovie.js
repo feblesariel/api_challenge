@@ -1,7 +1,6 @@
 // Requires
 
 const db = require('../../database/models/index.js');
-const { Op } = require("sequelize");
 const Movie = db.Movie;
 const Director = db.Director;
 
@@ -10,7 +9,7 @@ const Director = db.Director;
 const apiAddMovieController = {
 
     addMovie: function (req, res) {
-        
+
         const { title, release_year, director_name } = req.body;
 
         // Validate that the required fields are present
