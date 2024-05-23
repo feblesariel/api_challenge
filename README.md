@@ -20,18 +20,18 @@ This API is developed for the Nubceo. The following technologies were used:
 
 *Create the database with the script inside the "db" folder.
 
-```
-  npm install 
-```
-```
-  npm start    
-```
-
 *Create a .env file at the root of the project and add the environment variables.
 
 NAME=test<br>
 PASS=test<br>
 JWT_SECRET=test
+
+```
+  npm install
+```
+```
+  npm start
+```
 
 ## Endpoints
 
