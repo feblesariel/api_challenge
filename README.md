@@ -1,3 +1,17 @@
+## Endpoints
+
+This API is developed for the Nubceo challenge. The following technologies were used:
+
+```json
+{
+  "dotenv": "^16.4.5",
+  "express": "^4.19.2",
+  "jsonwebtoken": "^9.0.2",
+  "mysql2": "^3.9.7",
+  "sequelize": "^6.37.3"
+}
+```
+
 ## Install and run
 
 ```
@@ -93,4 +107,18 @@ JWT_SECRET=test
         }
     ]
 }
+```
+
+### Add Movie (requires token)
+
+- **URL:** `POST /api/addmovie`
+- **Descripción:** This endpoint is used to add a movie.
+- **Input Example:**
+```json
+{
+  "title": "The Dark Knight",
+  "director": "Christopher Nolan",
+  "release_year": 2008
+}
+
 ```
