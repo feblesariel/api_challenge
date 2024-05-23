@@ -1,8 +1,8 @@
 // Requires
 
 const express = require('express');
-const bodyParser = require('body-parser');
 require('dotenv').config();
+const bodyParser = require('body-parser');
 
 // express()
 
@@ -15,10 +15,12 @@ app.use(bodyParser.urlencoded({ extended: true }));
 const apiMoviesRouter = require("./routes/api/movies");
 const apiEpisodeRouter = require("./routes/api/episode");
 const apiAddMovieRouter = require("./routes/api/addmovie");
+const apiTokenRouter = require("./routes/api/token");
 
 app.use('/api/movies', apiMoviesRouter);
 app.use('/api/episode', apiEpisodeRouter);
 app.use('/api/addmovie', apiAddMovieRouter);
+app.use('/api/token', apiTokenRouter);
 
 // Run server 
 
