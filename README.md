@@ -2,11 +2,12 @@
 
 This API is developed for the Nubceo. The following dependencies were used:
 
-"dotenv": "^16.4.5",
-"express": "^4.19.2",
-"jsonwebtoken": "^9.0.2",
-"mysql2": "^3.9.7",
+"dotenv": "^16.4.5",<br>
+"express": "^4.19.2",<br>
+"jsonwebtoken": "^9.0.2",<br>
+"mysql2": "^3.9.7",<br>
 "sequelize": "^6.37.3"
+
 
 ## Install and run
 
