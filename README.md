@@ -56,7 +56,7 @@ JWT_SECRET=test
 ### Get Movies (requires token)
 
 - **URL:** `GET /api/movies`
-- **Descripción:** This endpoint is used to get a list of movies.
+- **Description:** This endpoint is used to get a list of movies.
 - **Optional Query Parameters:** Optional Query Parameters: Filters and sorting can be applied to the list of movies.
 - **Input Example:**
 ```json
@@ -83,7 +83,7 @@ JWT_SECRET=test
 ### Get TV Show Episode (requires token)
 
 - **URL:** `GET /api/episode`
-- **Descripción:** This endpoint is used to obtain information about a specific episode of a TV show, including the director.
+- **Description:** This endpoint is used to obtain information about a specific episode of a TV show, including the director.
 - **Optional Query Parameters:** Filters and sorting can be applied to the requested episode.
 - **Input Example:**
 ```json
@@ -112,7 +112,7 @@ JWT_SECRET=test
 ### Add Movie (requires token)
 
 - **URL:** `POST /api/addmovie`
-- **Descripción:** This endpoint is used to add a movie.
+- **Description:** This endpoint is used to add a movie.
 - **Input Example:**
 ```json
 {
