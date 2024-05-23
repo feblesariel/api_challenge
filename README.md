@@ -28,8 +28,8 @@ JWT_SECRET=test
 - **Input Example:**
 ```json
 {
-  "username": "testuser",
-  "password": "testpassword"
+  "username": "test",
+  "password": "test"
 }
 ```
 - **Input Example:**
