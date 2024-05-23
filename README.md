@@ -1,16 +1,12 @@
 ## Development Challenge for Node.js
 
-This API is developed for the Nubceo. The following technologies were used:
+This API is developed for the Nubceo. The following dependencies were used:
 
-```json
-{
-  "dotenv": "^16.4.5",
-  "express": "^4.19.2",
-  "jsonwebtoken": "^9.0.2",
-  "mysql2": "^3.9.7",
-  "sequelize": "^6.37.3"
-}
-```
+"dotenv": "^16.4.5",
+"express": "^4.19.2",
+"jsonwebtoken": "^9.0.2",
+"mysql2": "^3.9.7",
+"sequelize": "^6.37.3"
 
 ## Install and run
 
