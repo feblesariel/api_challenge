@@ -6,7 +6,7 @@ This API is developed for Nubceo. MySQL, Sequelize ORM and JasonWebToken were us
 ## Install
 
 ```
-  git clone https://github.com/feblesariel/nubceo_challenge.git
+git clone https://github.com/feblesariel/nubceo_challenge.git
 ```
 
 *Create the database with the script inside the "db" folder.
@@ -18,10 +18,10 @@ PASS=test<br>
 JWT_SECRET=test
 
 ```
-  npm install
+npm install
 ```
 ```
-  npm start
+npm start
 ```
 
 ## Endpoints
