@@ -1,12 +1,6 @@
 ## Development Challenge for Node.js
 
-This API is developed for the Nubceo. The following dependencies were used:
-
-"dotenv": "^16.4.5",<br>
-"express": "^4.19.2",<br>
-"jsonwebtoken": "^9.0.2",<br>
-"mysql2": "^3.9.7",<br>
-"sequelize": "^6.37.3"
+Esta API está desarrollada para Nubceo. Se utilizó para el desarrolo MySQL, Sequelize ORM and JasonWebToken.
 
 
 ## Install and run
@@ -17,7 +11,7 @@ This API is developed for the Nubceo. The following dependencies were used:
 
 *Create the database with the script inside the "db" folder.
 
-*Create a .env file at the root of the project and add the environment variables.
+*Create an .env file in the root of the project and add the following environment variables.
 
 NAME=test<br>
 PASS=test<br>
@@ -50,6 +44,8 @@ JWT_SECRET=test
 }
 ```
 
+![image](src/img/getToken.png)
+
 ### Get Movies (requires token)
 
 - **URL:** `GET /api/movies`
@@ -76,6 +72,8 @@ JWT_SECRET=test
     ]
 }
 ```
+
+![image](src/img/getMovies.png)
 
 ### Get TV Show Episode (requires token)
 
@@ -106,6 +104,8 @@ JWT_SECRET=test
 }
 ```
 
+![image](src/img/getEpisode.png)
+
 ### Add Movie (requires token)
 
 - **URL:** `POST /api/addmovie`
@@ -119,3 +119,5 @@ JWT_SECRET=test
 }
 
 ```
+
+![image](src/img/addMovie.png)

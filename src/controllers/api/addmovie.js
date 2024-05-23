@@ -10,6 +10,8 @@ const apiAddMovieController = {
 
     addMovie: function (req, res) {
 
+        console.log(req.body)
+
         const { title, release_year, director_name } = req.body;
 
         // Validate that the required fields are present
