@@ -1,0 +1,46 @@
+Desafío de Desarrollo para Node.js
+Este desafío tiene como objetivo evaluar habilidades básicas en desarrollo con Node.js, y un poco de modelado de datos/entidades. La idea es construir una API REST HTTP.
+
+Funcionalidad
+La API debe cumplir con las siguientes condiciones:
+
+- Endpoints para autenticación usando JWT.
+- Incluir un endpoint para refrescar el token de acceso JWT.
+- Endpoint para recuperar películas.
+- Debería permitir filtrar y ordenar por algún campo.
+- Endpoint para recuperar la información (incluido el director) de un episodio específico de un programa de televisión.
+- Endpoint para agregar un nuevo objeto (puede ser para cualquier entidad que desees).
+
+Modelo
+Entidades a considerar:
+
+- Película
+  - Tiene muchos actores, pero un solo director.
+- Programa de televisión
+  - Tiene muchos actores. También tiene temporadas y episodios dentro de cada una.
+- Actor
+  - Puede estar en diferentes películas y programas de televisión.
+- Director
+  - Puede dirigir muchas películas y episodios específicos de programas de televisión.
+
+Usa tu sentido común (o imaginación 😉) para definir los atributos/descripciones de cada entidad. Por ejemplo, nombre o género.
+
+Requisitos Técnicos
+Estas son las condiciones para el desarrollo:
+
+- El código debe usar Node.js 16 o superior.
+- El código puede estar escrito en Javascript o Typescript.
+- Todo el código y los comentarios deben estar escritos en inglés.
+- Usa convenciones y estándares de nomenclatura adecuados al definir la estructura del proyecto y el nombre de variables, funciones, etc.
+- Usa una estructura adecuada para definir las diferentes rutas de los endpoints de la API.
+- El uso de ESLint u otro linter es opcional.
+- La base de datos puede ser relacional o NoSQL, depende de ti. El uso de ORM también es opcional.
+- No es necesario presentar la base de datos. Pero el modelo debe estar representado de alguna manera. Podría ser en forma de configuración de ORM o al menos una documentación mínima o un ejemplo de algunas de las entidades.
+
+Presentación
+El resultado de este desafío debe presentarse como un repositorio privado de GitHub o GitLab, dando acceso a la persona que te contactó.
+Por favor, agrega una documentación mínima (en forma de archivo README) describiendo cómo ejecutar el proyecto y si hay algún requisito o consideración para hacerlo.
+
+Ah, y por favor no enlaces ni hagas fork de este repositorio para crear el tuyo. De esa manera, otras personas que intenten completar este desafío no podrán ver las soluciones 😆.
+
+¡Vamos a programar 💻!
