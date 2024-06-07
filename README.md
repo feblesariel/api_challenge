@@ -1,6 +1,6 @@
 ## Development Challenge for Node.js
 
-This API is developed for Nubceo. MySQL, Sequelize ORM and JasonWebToken were used for the development.
+This API use MySQL, Sequelize ORM and JasonWebToken were used for the development.
 
 
 ## Install
