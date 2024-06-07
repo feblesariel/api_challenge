@@ -1,4 +1,4 @@
-## Development Challenge for Node.js
+## Node.js Development Challenge
 
 This API use MySQL, Sequelize ORM and JasonWebToken were used for the development.
 
